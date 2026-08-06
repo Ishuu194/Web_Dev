@@ -1,0 +1,202 @@
+#container{
+    height: 100vh;
+    width: 100vw;
+    background-color: #bfb7b7;
+    position: relative;
+    display:flex;
+}
+
+.d1,.d2,.d3,.d4{
+    width:300px;
+    height:300px;
+    position:absolute;
+    animation-duration:8s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+
+.d1{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNpUIBf2LCoK0kuYhn_8UoKligp2OHq1BBa8wU9VZ5Xw&s=10");
+    animation-name:d1;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.d2{
+    background-image: url("https://www.pngall.com/wp-content/uploads/2016/03/3D-Mickey-Mouse-PNG.png");
+    animation-name:d2;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.d3{
+    background-image: url("https://img.pikbest.com/origin/09/23/67/37zpIkbEsTxSY.png!sw800");   
+    animation-name:d3;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.d4{
+    background-image: url("/CSS/doraemon1.webp");  
+    animation-name:d4;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@keyframes d1{
+ /* Top Center */
+    0%{
+        top:0;
+        left:calc(50% - 150px);
+        border-radius: 0;
+    }
+
+    /* Right Center */
+    25%{
+        top:calc(50% - 150px);
+        left:calc(100% - 300px);
+        border-radius: 50%;
+    }
+
+    /* Bottom Center */
+    50%{
+        top:calc(100% - 300px);
+        left:calc(50% - 150px);
+        border-radius: 0;
+    }
+
+    /* Left Center */
+    75%{
+        top:calc(50% - 150px);
+        left:0;
+        border-radius: 50%;
+    }
+
+    /* Back to Top Center */
+    100%{
+        top:0;
+        left:calc(50% - 150px);
+        border-radius: 0;
+    }
+}
+
+@keyframes d2{
+
+    /* Right Center */
+    0%{
+        top:calc(50% - 150px);
+        left:calc(100% - 300px);
+        border-radius: 0;
+    }
+
+    /* Bottom Center */
+    25%{
+        top:calc(100% - 300px);
+        left:calc(50% - 150px);
+        border-radius: 50%;
+    }
+
+    /* Left Center */
+    50%{
+        top:calc(50% - 150px);
+        left:0;
+        border-radius: 0;
+    }
+
+    /* Top Center */
+    75%{
+        top:0;
+        left:calc(50% - 150px);
+        border-radius: 50%;
+    }
+
+    /* Back to Right Center */
+    100%{
+        top:calc(50% - 150px);
+        left:calc(100% - 300px);
+        border-radius: 0;
+    }
+
+}
+
+@keyframes d3{
+
+    /* Bottom Center */
+    0%{
+        top:calc(100% - 300px);
+        left:calc(50% - 150px);
+        border-radius: 0;
+    }
+
+    /* Left Center */
+    25%{
+        top:calc(50% - 150px);
+        left:0;
+        border-radius: 50%;
+    }
+
+    /* Top Center */
+    50%{
+        top:0;
+        left:calc(50% - 150px);
+        border-radius: 0;
+    }
+
+    /* Right Center */
+    75%{
+        top:calc(50% - 150px);
+        left:calc(100% - 300px);
+        border-radius: 50%;
+    }
+
+    /* Back to Bottom Center */
+    100%{
+        top:calc(100% - 300px);
+        left:calc(50% - 150px);
+        border-radius: 0;
+    }
+
+}
+
+@keyframes d4{
+
+    /* Left Center */
+    0%{
+        top:calc(50% - 150px);
+        left:0;
+        border-radius: 0;
+    }
+
+    /* Top Center */
+    25%{
+        top:0;
+        left:calc(50% - 150px);
+        border-radius: 50%;
+    }
+
+    /* Right Center */
+    50%{
+        top:calc(50% - 150px);
+        left:calc(100% - 300px);
+        border-radius: 0;
+    }
+
+    /* Bottom Center */
+    75%{
+        top:calc(100% - 300px);
+        left:calc(50% - 150px);
+        border-radius: 50%;
+    }
+
+    /* Back to Left Center */
+    100%{
+        top:calc(50% - 150px);
+        left:0;
+        border-radius: 0;
+    }
+
+}

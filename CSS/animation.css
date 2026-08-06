@@ -1,0 +1,63 @@
+div{
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    animation-name: Hello;
+    animation-duration: 8s;
+    animation-timing-function: ease-in;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    margin: 20px;
+}
+
+@keyframes Hello{
+    0%{
+        background: linear-gradient( orange, red, orange);
+        border-radius: 400px;
+        transform: rotate(90deg);
+        transform: scale(1.5);
+        margin-top: 500px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    20%{
+        background: radial-gradient( #cdff06, rgb(26, 36, 1), #c4d61f);
+        border-radius: 400px;
+        transform: rotate(270deg);
+        transform: scale(1);
+        margin-right: 400px; 
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    40%{
+        background: linear-gradient( #0c3204, rgb(141, 105, 105), rgb(33, 80, 2));  
+        border-radius: 400px;
+        transform: rotate(180deg);
+        margin-bottom: 100px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    60%{
+        background: linear-gradient( rgb(20, 234, 134), red, rgb(9, 128, 152));
+        border-radius: 400px;
+        transform: rotate(120deg);
+        transform: scale(0.8);
+        margin-left: 400px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    80%{
+        background: linear-gradient( rgb(238, 2, 147), red ,rgb(149, 10, 66));
+        border-radius: 200px;
+        transform: rotate(260deg);
+        margin-top: 400px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+}

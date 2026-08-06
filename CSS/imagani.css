@@ -1,0 +1,82 @@
+body{
+    margin:0;
+    height:100vh;
+    position:relative;
+    overflow:hidden;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+div{
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    animation-name: Hello;
+    animation-duration: 8s;
+    animation-timing-function: ease-in;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    margin: 20px;
+    position: absolute;
+}
+
+@keyframes Hello{
+    0%{
+
+        background-image: url("/CSS/images.png");
+        border-radius: 400px;
+        transform: rotate(90deg);
+        transform: scale(1.5);
+        top:0;
+        left:50%;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    20%{
+        background-image: url("/CSS/images1.jpg");
+        border-radius: 400px;
+        transform: rotate(270deg);
+        transform: scale(1);
+        top:50%;
+        left:calc(100% - 400px); 
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    40%{
+        background-image: url("/CSS/6pABPR4fRQuOM3rFQi7JbQ.webp");        
+        border-radius: 400px;
+        transform: rotate(180deg);
+        top:calc(100% - 400px);
+        left:50%;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    60%{
+        background-image: url("/CSS/panda-eating-bamboo-cartoon-373788267.webp");
+        border-radius: 400px;
+        transform: rotate(120deg);
+        transform: scale(0.8);
+        top:50%;
+        left:0;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    80%{
+        background-image: url("/CSS/pngtree-cute-cartoon-baby-elephant-clipart-illustration-perfect-for-childrens-books-and-png-image_13545599.png");
+        border-radius: 200px;
+        transform: rotate(260deg);
+        top:0;
+        left:50%;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+}

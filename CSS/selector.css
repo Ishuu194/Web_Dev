@@ -1,0 +1,103 @@
+
+   /* 1. Simple Selector  */
+
+/* ID Selctore*/
+#p93{
+    color: green;
+}
+
+/* Class Selctore*/
+.H23{
+    color: violet;
+}
+
+/* Element Selctore*/
+p{
+    color: blue;
+}
+
+/* grouping Selctore*/
+#p93,.H23, p{
+    font-style: italic;
+}
+
+/*Unviversal selector*/
+*{
+    background-color: azure;
+}
+
+   /* 2. Combinator Selector  */
+
+  /*descendent combinator selctor*/
+div p{
+    color: deeppink;
+}
+
+/*child combinator selector*/
+div>p{
+    color: crimson;
+}
+
+/*adjacent combinator selector*/
+div+p{
+    color: black;
+}
+
+/*general combinator selector*/
+div~p{
+    background: linear-gradient(white , coral);
+}
+
+  /* 3.Pseudo-Class selector */
+/*hover*/       /* used to change the look of an element when the mouse is placed on it element*/
+a:hover{
+    color: red;
+}
+
+/*active*/          /*is used to changes the styles of an element while the user is clicked it*/
+button:active{
+    background-color: crimson;
+}
+
+/*focus*/
+input:focus{
+    border: 2px dotted blue;   /*focus to change the look of an input box or other element when it is selected*/
+}    /* dotted is a border styles another is solid,dashed,double css is alwasy need the border style like all this to draw a boder*/
+
+/*visited*/
+a:visited{              /* change the colour of a link after it has been visited*/
+    color: darksalmon;
+}
+
+/*link*/
+a:link{           /* is used to style a link that has not been visited by the user*/
+    color: orange;
+}
+
+/*first child*/   
+li:first-child{         /* used to apply to style only first element*/
+    color: dodgerblue;
+}
+
+/*last child*/ 
+li:last-child{         /* used to apply to style only last element*/
+    color: darkgreen;
+}
+
+/*nth child*/ 
+li:nth-child(2){         /* used to apply to style middle element*/
+    color: rgb(25, 1, 47);
+}
+
+     /*Pseudo element selector*/
+
+    /* FIRST-LETTER */
+p::first-letter{
+    color:red;
+}
+
+.p55::last-letter{
+    color:blue;
+}
+
+

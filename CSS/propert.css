@@ -1,0 +1,73 @@
+/* Text Properties */
+p{
+    color: Green;
+    text-indent: 50px;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: #ea6d07;
+    text-transform: capitalize;
+}
+h2{
+    text-align: center;
+    text-shadow: 20px 20px 8px brown;
+}
+#p11{
+    color: red;
+    text-decoration: underline;
+}
+
+/* fornt properties */
+div{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 70px;
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+/* Background properties */
+section{
+    height: 90vh;
+    width: 100%;
+   /* background-color: purple; */
+   /* background: linear-gradient(purple, black, purple);  */
+   /* background-image: radial-gradient(purple, black, purple); */
+    background-image: url("/CSS/dark-sunset-nature-horizon_395237-185.avif"), url("/CSS/pexels-inspiredimages-132474.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: lighten;
+}
+h3{
+    color: black;
+    text-align: center;
+
+}
+
+/*Box Properties*/
+article{
+    height:300px;
+    width:300px;
+    background:linear-gradient(orange, rgb(239, 48, 48), orange);
+    /* padding-top: 150px; */
+    /*padding-right: 100px; */
+    /*padding-bottom: 100px; */
+    /*padding-left: 100px; */
+    padding: 400px 200px 400px 300px;
+
+    margin-top: 200px;
+    margin-right: 200px;
+    /* margin-left: 200px; */
+
+    border-style:Double;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    float: right;
+    opacity: 1.6;
+    box-shadow: 30px 30px 30px 30px orangered;
+    /*   border-radius: 50px;   (Curve all four corners of the box) */
+    outline: 10px dotted black;  /* (it will give outline border to the box also visible outside the box) */
+    outline-offset: 15px;  /* (it will give space between the box and outline border) */
+    box-sizing: border-box;  /* (it will include the padding and border in the total width and height of the box) */
+    text-align: center;
+}
